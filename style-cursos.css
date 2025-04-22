@@ -28,6 +28,7 @@ th, td {
     border: 1px solid #ccc;
     padding: 12px;
     text-align: left;
+    color: aliceblue;
 }
 
 th {
@@ -37,5 +38,5 @@ th {
 
 
 tr:nth-child(even) {
-    background-color: #aeacac;
+    background-color: #636262;
 }
