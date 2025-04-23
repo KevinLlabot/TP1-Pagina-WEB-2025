@@ -1,7 +1,7 @@
 body {
     animation: cambiarFondo 20s infinite alternate;
     background-size: 400% 400%;
-    background-image: linear-gradient(-45deg, #096ed3, #b9005c, #b706b7, #07cad4);
+    background-image: linear-gradient(-45deg, #096ed3, #3c50c5, #b706b7, #07cad4);
 }
 
 @keyframes cambiarFondo {
@@ -72,4 +72,9 @@ h2 {
   
   .lindo-borde:hover {
     transform: scale(1.02);
+  }
+
+  iframe {
+    position: relative;
+    margin-left: 360px;
   }
