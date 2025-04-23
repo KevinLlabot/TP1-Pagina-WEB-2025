@@ -19,3 +19,13 @@ h1 {
     display: flex;
     justify-content: space-between;
 }
+
+#contacto a img {
+    transition: 0.3s ease;
+    filter: drop-shadow(0 0 5px transparent);
+}
+
+#contacto a img:hover {
+    filter: drop-shadow(0 0 8px #001f3f) drop-shadow(0 0 10px #001f3f) drop-shadow(0 0 15px #001f3f);
+    transform: scale(1.05);
+}
